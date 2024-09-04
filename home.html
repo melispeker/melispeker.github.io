@@ -28,7 +28,8 @@
         header h1 {
             margin: 0;
             font-size: 24px;
-         }
+    
+        }
         nav ul {
             padding: 0;
             list-style: none;
@@ -47,7 +48,24 @@
             background: #fff;
             border-radius: 5px;
         }
- </style>
+        .profile-photo {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -56,12 +74,12 @@
             <nav>
                 <ul>
                     <li><a href="home.html"/a></li>
-                    <li><a href="#index.html"/a></li>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="cs50.html">CS50 Course</a></li>
                     <li><a href="swift.html">Develop in Swift</a></li>
                     <li><a href="documentation.html">Documentation</a></li>
+                   
                 </ul>
             </nav>
         </div>
@@ -70,6 +88,8 @@
     </style>
 </head>
 <body>
+    
+    
     <div class="container">
         <section id="bio">
             <h2></h2>
@@ -83,10 +103,11 @@
 </p>
         </section>
 
-        </section>
-
         <section id="contact">
             <h2>Contact</h2>
             <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
         </section>
 
+    </div>
+</body>
+</html>
