@@ -28,10 +28,11 @@
         header h1 {
             margin: 0;
             font-size: 24px;
-         }
+        }
         nav ul {
             padding: 0;
             list-style: none;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -42,12 +43,25 @@
             text-decoration: none;
         }
         section {
-            margin: 20px 0;
-            padding: 20px;
+            margin: 40px 0; /* Increased margin to add space around the section */
+            padding: 30px;  /* Increased padding to add space within the section */
             background: #fff;
             border-radius: 5px;
         }
- </style>
+        .main-title {
+            font-size: 24px; /* Slightly larger font size for the main title */
+            margin-bottom: 20px; /* Increased bottom margin for spacing below the title */
+        }
+        .subtitle {
+            font-size: 20px; /* Increased font size for subtitles */
+            margin-top: 20px; /* Increased top margin for spacing above the subtitle */
+            margin-bottom: 10px; /* Added bottom margin for spacing below the subtitle */
+        }
+        p {
+            margin: 15px 0; /* Increased margin for better spacing around paragraphs */
+            line-height: 1.6; /* Increased line height for better readability */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -55,8 +69,6 @@
             <h1>Melis Peker</h1>
             <nav>
                 <ul>
-                    <li><a href="cs50.html"/a></li>
-                    <li><a href="#index.html"/a></li>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="cs50.html">CS50 Course</a></li>
@@ -66,18 +78,16 @@
             </nav>
         </div>
     </header>
-        <h1 class="main-title">CS 50 Courses</h1>
+
+    <section>
+        <h1 class="main-title">CS50 Courses</h1>
     
         <h2 class="subtitle">Introduction to Computer Science & Understanding Technology:</h2>
-        <p>CS50's Introduction to Computer Science: <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home">View Course</a></p>
+        <p>CS50's Introduction to Computer Science: <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home" target="_blank">View Course</a></p>
         <p>CS50's Understanding Technology: <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50T+Technology/home" target="_blank">View Course</a></p>
     
-        <h2 class="subtitle">What I Gained From These Courses::</h2>
-        <p>geliyor<p>
+        <h2 class="subtitle">What I Gained From These Courses:</h2>
+        <p>geliyor</p>
     </section>
 </body>
 </html>
- 
-    </style>
-</head>
-<body>
