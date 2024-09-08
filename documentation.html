@@ -52,8 +52,22 @@
             font-size: 20px;
             margin-top: 20px;
         }
+        h3 {
+            font-size: 18px;
+            margin-top: 15px;
+        }
         p {
             margin: 10px 0;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+            color: #333;
         }
     </style>
 </head>
@@ -97,19 +111,47 @@
             <strong>Run-time Error:</strong> A mistake in the program that occurs during the execution of a program.<br>
             <strong>Overflow Error:</strong> An error that occurs when a computer attempts to handle a number that is outside the defined range of values.</p>
       
-            
             <h3>Big Idea 1 Explanation Video</h3>
-
             <!-- Video embedding -->
             <video width="50%" controls>
                 <source src="videos/big_idea_1_explanation_video.mp4" type="video/mp4">
             </video>
-        
         </article>
 
         <article>
             <h2 class="subtitle">How I Created My GitHub Page:</h2>
-            <p>Coming Soon</p>
+
+            <h3>Introduction</h3>
+            <p>
+                Before AP CSP, I had never used GitHub before. I first opened an account this summer for the CS50 course so I could complete the problem sets. However, it was not until 1 week ago that I started to figure out the basics of GitHub. Now I have finished setting up my site for now. As time goes by, I plan to improve my site with my new knowledge.
+            </p>
+
+            <h3>Problems I Encountered</h3>
+            <p>
+                One of the biggest problems I faced was creating different links so the links redirected to different pages. Then I learned that I needed to create different files for this to be possible. So I went ahead and created different files for every segment I wanted to display. For example, "projects.html" or "swift.html."
+            </p>
+
+            <p>Here is a part of my code:</p>
+            <pre>
+                <code>
+&lt;li&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="projects.html"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="cs50.html"&gt;CS50 Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="swift.html"&gt;Develop in Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="documentation.html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+                </code>
+            </pre>
+            <p>
+                I added the new files to the code of my main page so the links could work.
+            </p>
+
+            <p>
+                Another big problem I encountered was transferring my codes from Xcode to GitHub. I then learned that I needed to click "Integrate" then "New Git Repository." At first, this didn’t work well because I didn’t know all my Playgrounds had to be in the same folder. So I created a folder named "Swift2024" in Documents and added all my projects there. Then, I was able to add the links to my site.
+            </p>
+
+            <p>
+                For all the little errors I referred to ChatGPT, my peers, or my teachers.
+            </p>
         </article>
     </section>
 </body>
