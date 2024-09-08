@@ -11,7 +11,6 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
-            font-size: 18px; /* Slightly larger base font size */
         }
         .container {
             width: 80%;
@@ -21,14 +20,14 @@
         header {
             background: #333;
             color: #fff;
-            padding: 30px 0;
+            padding-top: 30px;
             min-height: 70px;
             border-bottom: #ddd 3px solid;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 40px; /* Increased size for main title */
+            font-size: 24px;
         }
         nav ul {
             padding: 0;
@@ -37,15 +36,11 @@
         }
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin: 0 10px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
-            font-weight: bold;
-        }
-        nav ul li a:hover {
-            text-decoration: underline;
         }
         section {
             margin: 20px 0;
@@ -53,29 +48,16 @@
             background: #fff;
             border-radius: 5px;
         }
-        h1 {
-            font-size: 36px; /* Larger for the main title */
-            margin-top: 0;
-        }
         h2 {
-            font-size: 28px; /* Slightly larger for key subtitles */
+            font-size: 20px;
             margin-top: 20px;
         }
         h3 {
-            font-size: 22px; /* Increased for detailed section titles */
-            margin-top: 20px;
-            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
         }
         p {
-            font-size: 18px; /* Body text increased slightly for readability */
-            line-height: 1.6;
             margin: 10px 0;
-        }
-        a {
-            color: #0066cc;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -85,22 +67,22 @@
             <h1>Melis Peker</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html" aria-label="Home">Home</a></li>
-                    <li><a href="projects.html" aria-label="Projects">Projects</a></li>
-                    <li><a href="cs50.html" aria-label="CS50 Course">CS50 Course</a></li>
-                    <li><a href="swift.html" aria-label="Develop in Swift">Develop in Swift</a></li>
-                    <li><a href="documentation.html" aria-label="Documentation">Documentation</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="cs50.html">CS50 Course</a></li>
+                    <li><a href="swift.html">Develop in Swift</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
-        <h1>My Journey Learning Swift</h1>
+    <section id="swift">
+        <h2>My Journey Learning Swift</h2>
 
-        <h2>Develop in Swift AP CS Principles:</h2>
+        <h3>Develop in Swift AP CS Principles:</h3>
         <p>Develop in Swift AP CS Principles Book: <a href="https://books.apple.com/tr/book/develop-in-swift-ap-cs-principles/id1511184045" target="_blank" rel="noopener noreferrer">View Book</a></p>
-        
+
         <h3>pg. 0-46</h3>
 
         <h3>What is Swift?</h3>
@@ -115,7 +97,7 @@
         <h3>What Are Identifiers?</h3>
         <p>Naming is an important skill in programming. In programming, you need to create clear, descriptive names called identifiers that reveal the intent of your code.</p>
 
-        <h3>What are Constants and Variables?</h3>
+        <h3>What Are Constants and Variables?</h3>
         <p>When you create an identifier, you also need to declare whether it's a constant or a variable. The value of a constant doesn't change, while the value of a variable changes.</p>
 
         <h3>How Are Simulations Used?</h3>
