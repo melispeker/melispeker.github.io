@@ -3,62 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melis Peker</title>
+    <title>Melis Peker - Projects Completed In AP CSP</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
         .container {
-            width: 80%;
-            margin: auto;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #ddd 3px solid;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 24px;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
         nav ul {
             padding: 0;
             list-style: none;
-            margin: 0;
+            margin: 20px 0 0;
         }
         nav ul li {
-            display: inline;
-            margin: 0 10px;
+            display: inline-block;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #18bc9c;
         }
         section {
-            margin: 20px 0;
-            padding: 20px;
+            margin: 40px 0;
+            padding: 30px;
             background: #fff;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
-        .main-title {
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        section h3 {
             font-size: 22px;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            font-size: 18px;
-            margin-top: 20px;
+            margin-bottom: 15px;
+            color: #34495e;
         }
         p {
-            margin: 10px 0;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #555;
         }
+        a {
+            color: #18bc9c;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2c3e50;
+        }
+        
     </style>
 </head>
 <body>
@@ -77,23 +102,25 @@
         </div>
     </header>
 
-    <section>
-        <h1 class="main-title">Projects Completed In AP CSP</h1>
+    <section id="projects" class="container">
+        <h2>Projects Completed In AP CSP</h2>
 
-        <h2 class="subtitle">Scratch Projects:</h2>
+        <h3>Scratch Projects:</h3>
         <p>Connect 4: <a href="https://scratch.mit.edu/projects/1063445822" target="_blank">View Project</a></p>
         <p>CS50 Project: <a href="https://scratch.mit.edu/projects/1071243138" target="_blank">View Project</a></p>
 
-        <h2 class="subtitle">Swift Projects:</h2>
-        <p>HelloWorld Project:<a href="https://github.com/melispeker/Swift2024/tree/main/HelloWorld.playground" target="_blank">View Project</a></p></p>
-        <p>Photoframe App:<a href="https://github.com/melispeker/Photoframe" target="_blank">View Project</a></p></p>
-        <p>Swift Exercises 1, 2, 3:<a href="https://github.com/melispeker/Swift2024/tree/main/Swift%20Exercises.playground" target="_blank">View Project</a></p></p>
-        <p>Swift Exercise 4:<a href="https://github.com/melispeker/Swift2024/tree/main/Calculator.playground" target="_blank">View Project</a></p></p>
-        <p>Functions Projects Week 1 (Exersise 5):<a href="https://github.com/melispeker/Swift2024/tree/main/Fonksiyonlar.playground" target="_blank">View Project</a></p></p>
-        <p>Functions Projects Week 2 (Exercises 6,7,8):<a href="https://github.com/melispeker/Swift2024/blob/main/funcweek2.playground.zip" target="_blank">View Project</a></p></p>
-        <p>QuestionBot App:<a href="https://github.com/melispeker/QuestionBot" target="_blank">View Appp</a></p></p>
-        <p>BouncyBall App:<a href="https://github.com/melispeker/BouncyBall">View App</a></p></p>
-        <p>ColourPicker App:<a href="https://github.com/melispeker/Swift2024/tree/main/Swift%20Exercises.playground" target="_blank">View App</a></p></p>
+        <h3>Swift Projects:</h3>
+        <p>HelloWorld Project: <a href="https://github.com/melispeker/Swift2024/tree/main/HelloWorld.playground" target="_blank">View Project</a></p>
+        <p>Photoframe App: <a href="https://github.com/melispeker/Photoframe" target="_blank">View Project</a></p>
+        <p>Swift Exercises 1, 2, 3: <a href="https://github.com/melispeker/Swift2024/tree/main/Swift%20Exercises.playground" target="_blank">View Project</a></p>
+        <p>Swift Exercise 4: <a href="https://github.com/melispeker/Swift2024/tree/main/Calculator.playground" target="_blank">View Project</a></p>
+        <p>Functions Projects Week 1 (Exercise 5): <a href="https://github.com/melispeker/Swift2024/tree/main/Fonksiyonlar.playground" target="_blank">View Project</a></p>
+        <p>Functions Projects Week 2 (Exercises 6, 7, 8): <a href="https://github.com/melispeker/Swift2024/blob/main/funcweek2.playground.zip" target="_blank">View Project</a></p>
+        <p>QuestionBot App: <a href="https://github.com/melispeker/QuestionBot" target="_blank">View App</a></p>
+        <p>BouncyBall App: <a href="https://github.com/melispeker/BouncyBall" target="_blank">View App</a></p>
+        <p>ColourPicker App: <a href="https://github.com/melispeker/Swift2024/tree/main/Swift%20Exercises.playground" target="_blank">View App</a></p>
     </section>
+
+    
 </body>
 </html>
