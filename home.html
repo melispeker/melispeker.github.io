@@ -63,15 +63,16 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: 20px; /* Added padding to prevent the photo from touching the edges */
         }
 
         .profile-photo {
             border-radius: 50%;
-            width: 150px; /* Slightly smaller photo */
+            width: 150px;
             height: 150px;
             object-fit: cover;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-            margin-right: 20px; /* Kept the same */
+            margin-right: 20px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -102,6 +103,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: 20px; /* Added padding to match the bio section */
         }
 
         #contact p {
@@ -158,7 +160,7 @@
     </section>
 
     <section id="contact" class="container">
-        <div class="bio-text"> <!-- Aligned with the bio section -->
+        <div class="bio-text">
             <h2>Contact</h2>
             <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
         </div>
@@ -169,5 +171,6 @@
     </footer>
 </body>
 </html>
+
 
 
