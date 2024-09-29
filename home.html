@@ -61,26 +61,21 @@
             float: left;
             margin-right: 20px;
             border-radius: 50%;
-            width: 200px;  /* Increased the size of the photo */
+            width: 200px;  /* Larger profile picture */
             height: 200px;
-            object-fit: cover;  /* Ensures the image covers the full circular area */
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Added a subtle shadow */
+            object-fit: cover;  /* Make sure the image fits perfectly */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
             transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
         }
         .profile-photo:hover {
-            transform: scale(1.05);  /* Slight enlargement on hover */
-            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);  /* Darker shadow on hover */
+            transform: scale(1.05);  /* Enlarge on hover */
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);  /* More pronounced shadow on hover */
         }
         section h2 {
             font-size: 28px;
             margin-bottom: 20px;
             font-weight: bold;
             color: #2c3e50;
-        }
-        section h3 {
-            font-size: 22px;
-            margin-bottom: 15px;
-            color: #34495e;
         }
         p {
             margin-bottom: 20px;
@@ -123,10 +118,20 @@
         </div>
     </header>
 
-    <section class="container">
+    <section id="bio" class="container">
         <h2>Profile</h2>
         <img src="profile-photo.jpg" alt="Melis Peker" class="profile-photo">
-        <p>Hello! My name is Melis Peker. I am a student passionate about learning new things and expanding my knowledge in technology and beyond.</p>
+        <p>Hello! My name is Melis Peker.</p>
+    </section>
+
+    <section id="home.html" class="container">
+        <h2>Home</h2>
+        <p>I am a 10th grade student at Hisar Schools. I love learning about physics and I plan to pursue a career in this field in the future. My hobbies include fencing, walking, and baking. Recently I have developed an interest for technology and that is why I have chosen to take the CSP AP class.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
     </section>
 
     <footer>
