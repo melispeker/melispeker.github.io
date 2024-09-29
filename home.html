@@ -67,11 +67,11 @@
 
         .profile-photo {
             border-radius: 50%;
-            width: 180px;
-            height: 180px;
+            width: 150px; /* Slightly smaller photo */
+            height: 150px;
             object-fit: cover;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-            margin-right: 20px; /* Moved closer to text */
+            margin-right: 20px; /* Kept the same */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -98,9 +98,18 @@
             color: #555;
         }
 
+        #contact {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
         #contact p {
-            text-align: center;
+            line-height: 1.8;
             font-size: 16px;
+            color: #555;
+            flex: 1;
+            padding: 0 20px;
         }
 
         a {
@@ -143,14 +152,16 @@
     <section id="bio" class="container">
         <img src="ptofilfoto.jpg" alt="Melis Peker" class="profile-photo">
         <div class="bio-text">
-            <h2>About Me!</h2> <!-- Moved the "About Me!" heading here -->
+            <h2>About Me!</h2>
             <p>Hello! My name is Melis Peker. I am a 10th grade student at Hisar Schools. I love learning about physics and I plan to pursue a career in this field in the future. My hobbies include fencing, walking, and baking. Recently, I have developed an interest in technology and that is why I have chosen to take the CSP AP class.</p>
         </div>
     </section>
 
     <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
+        <div class="bio-text"> <!-- Aligned with the bio section -->
+            <h2>Contact</h2>
+            <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
+        </div>
     </section>
 
     <footer>
@@ -158,6 +169,5 @@
     </footer>
 </body>
 </html>
-Key Updates:
 
 
