@@ -6,64 +6,104 @@
     <title>Melis Peker</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
         .container {
-            width: 80%;
-            margin: auto;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #ddd 3px solid;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 24px;
-    
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
         nav ul {
             padding: 0;
             list-style: none;
+            margin: 20px 0 0;
         }
         nav ul li {
-            display: inline;
-            margin: 0 10px;
+            display: inline-block;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #18bc9c;
         }
         section {
-            margin: 20px 0;
-            padding: 20px;
+            margin: 40px 0;
+            padding: 30px;
             background: #fff;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .profile-photo {
             float: left;
             margin-right: 20px;
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
+            width: 200px;  /* Increased the size of the photo */
+            height: 200px;
+            object-fit: cover;  /* Ensures the image covers the full circular area */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Added a subtle shadow */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+        }
+        .profile-photo:hover {
+            transform: scale(1.05);  /* Slight enlargement on hover */
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);  /* Darker shadow on hover */
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        section h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #555;
+        }
+        a {
+            color: #18bc9c;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2c3e50;
         }
         footer {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
             text-align: center;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -73,41 +113,24 @@
             <h1>Melis Peker</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html"/a></li>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="cs50.html">CS50 Course</a></li>
                     <li><a href="swift.html">Develop in Swift</a></li>
                     <li><a href="documentation.html">Documentation</a></li>
-                   
                 </ul>
             </nav>
         </div>
     </header>
- 
-    </style>
-</head>
-<body>
-    
-    
-    <div class="container">
-        <section id="bio">
-            <h2></h2>
-            <img src="ptofilfoto.jpg" alt="Melis Peker" class="profile-photo">
-            <p>Hello! My name is Melis Peker.</p>
-        </section>
 
-        <section id="home.html">
-            <h2>Home</h2>
-            <p>I am a 10th grade student at Hisar Schools. I love learning about physics and I plan to pursue a career in this field in the future. My hobbies include fencing, walking, and baking. Recently I have developed an interest for technology and that is why I have chosen to take the CSP AP class. 
-</p>
-        </section>
+    <section class="container">
+        <h2>Profile</h2>
+        <img src="profile-photo.jpg" alt="Melis Peker" class="profile-photo">
+        <p>Hello! My name is Melis Peker. I am a student passionate about learning new things and expanding my knowledge in technology and beyond.</p>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
-        </section>
-
-    </div>
+    <footer>
+        <p>&copy; 2024 Melis Peker - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
