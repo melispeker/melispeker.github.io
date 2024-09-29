@@ -3,61 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melis Peker</title>
+    <title>Melis Peker - Swift Learning Journey</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
         .container {
-            width: 80%;
-            margin: auto;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #ddd 3px solid;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 24px;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
         nav ul {
             padding: 0;
             list-style: none;
-            margin: 0;
+            margin: 20px 0 0;
         }
         nav ul li {
-            display: inline;
-            margin: 0 10px;
+            display: inline-block;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #18bc9c;
         }
         section {
-            margin: 20px 0;
-            padding: 20px;
+            margin: 40px 0;
+            padding: 30px;
             background: #fff;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #2c3e50;
         }
-        h3 {
-            font-size: 18px;
-            margin-top: 15px;
+        section h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #34495e;
         }
         p {
-            margin: 10px 0;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #555;
+        }
+        a {
+            color: #18bc9c;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2c3e50;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -77,7 +109,7 @@
         </div>
     </header>
 
-    <section id="swift">
+    <section id="swift" class="container">
         <h2>My Journey Learning Swift</h2>
 
         <h3>Develop in Swift AP CS Principles:</h3>
@@ -106,5 +138,9 @@
         <h3>What Are Strings?</h3>
         <p>In most programming languages, including Swift, text values are called strings and are composed of characters.</p>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Melis Peker - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
