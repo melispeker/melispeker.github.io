@@ -9,17 +9,17 @@
             font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
             color: #333;
         }
         .container {
-            width: 90%;
+            width: 85%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 15px;
+            padding: 20px 0;
         }
         header {
-            background: #2c3e50;
+            background-color: #2c3e50;
             color: #fff;
             padding: 30px 0;
             text-align: center;
@@ -50,53 +50,79 @@
         nav ul li a:hover {
             color: #18bc9c;
         }
+
         section {
-            margin: 40px 0;
-            padding: 30px;
+            margin: 50px 0;
+            padding: 40px;
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
         }
+
         #bio {
-            margin-bottom: 80px;
             display: flex;
-            align-items: center;  /* Align the photo and text in the middle */
+            align-items: center;
+            justify-content: space-between;
         }
+
         .profile-photo {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             object-fit: cover;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-            margin-right: 30px;  /* Space between the photo and text */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-right: 30px;
         }
+
         .profile-photo:hover {
             transform: scale(1.05);
             box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
         }
+
+        .bio-text {
+            flex: 1;
+            padding: 0 20px;
+        }
+
         section h2 {
             font-size: 28px;
             margin-bottom: 20px;
             font-weight: bold;
             color: #2c3e50;
+            text-align: center;
         }
+
         p {
-            margin-bottom: 20px;
-            line-height: 1.6;
+            line-height: 1.8;
             font-size: 16px;
             color: #555;
-            flex: 1;  /* Make the text take up the remaining space */
         }
+
+        #contact p {
+            text-align: center;
+            font-size: 16px;
+        }
+
         a {
             color: #18bc9c;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
         }
+
         a:hover {
             color: #2c3e50;
-       
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -116,8 +142,10 @@
     </header>
 
     <section id="bio" class="container">
-        <img src="ptofilfoto.jpg" alt="Melis Peker" class="profile-photo">
-        <p>Hello! My name is Melis Peker. I am a 10th grade student at Hisar Schools. I love learning about physics and I plan to pursue a career in this field in the future. My hobbies include fencing, walking, and baking. Recently, I have developed an interest in technology and that is why I have chosen to take the CSP AP class.</p>
+        <img src="profile-photo.jpg" alt="Melis Peker" class="profile-photo">
+        <div class="bio-text">
+            <p>Hello! My name is Melis Peker. I am a 10th grade student at Hisar Schools. I love learning about physics and I plan to pursue a career in this field in the future. My hobbies include fencing, walking, and baking. Recently, I have developed an interest in technology and that is why I have chosen to take the CSP AP class.</p>
+        </div>
     </section>
 
     <section id="contact" class="container">
@@ -125,7 +153,9 @@
         <p>You can reach me via email at <a href="mailto:melis.peker@hisarschool.k12.tr">melis.peker@hisarschool.k12.tr</a>. I look forward to connecting with you!</p>
     </section>
 
-
+    <footer>
+        <p>&copy; 2024 Melis Peker - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
 
